@@ -1,0 +1,7 @@
+.m-figure {
+  text-align: center;
+
+  & > * + * {
+    margin-top: var(--spaceM);
+  }
+}

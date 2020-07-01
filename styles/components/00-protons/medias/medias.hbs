@@ -1,0 +1,32 @@
+<div style="width: 768px" class="medium">Medium</div>
+<div style="width: 980px" class="large">Large</div>
+<div style="width: 1280px" class="wide">Wide</div>
+
+<style>
+  div {
+    background: lightgrey;
+    margin-bottom: 1em;
+    padding: 1em;
+  }
+
+  /* Media queries manually rewritten because fractal cannot handle sass */
+
+  @media (min-width: 768px) {
+    .medium {
+      background-color: lightgreen;
+    }
+  }
+
+  @media (min-width: 980px) {
+    .large {
+      background-color: lightgreen;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .wide {
+      background-color: lightgreen;
+    }
+  }
+
+</style>

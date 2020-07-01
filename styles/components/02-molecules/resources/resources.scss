@@ -1,0 +1,8 @@
+.m-resources {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > * {
+    margin-right: var(--spaceM);
+  }
+}

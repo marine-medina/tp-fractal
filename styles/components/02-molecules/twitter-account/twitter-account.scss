@@ -1,0 +1,10 @@
+.m-twitterAccount {
+  text-decoration: none;
+  color: var(--colorTextMain);
+  display: block;
+  text-align: center;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,9 @@
+.o-courseMap__header {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: var(--spaceM);
+
+  & > * + * {
+    margin-left: var(--spaceS);
+  }
+}
