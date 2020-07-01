@@ -8,7 +8,11 @@ function cleanDist() {
 }
 
 function css() {
-  return src(['./styles/vendors/**/*.scss', './styles/components/**/*.scss'])
+  return src([
+    './styles/vendors/**/*.scss',
+    './styles/global/**/*.scss',
+    './styles/components/**/*.scss',
+  ])
     .pipe(sass().on('error', sass.logError))
     .pipe(concat('styles.css'))
     .pipe(dest('./dist'));
