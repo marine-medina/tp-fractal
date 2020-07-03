@@ -1,0 +1,11 @@
+.a-downloadButton {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--colorPrimary);
+  color: var(--colorTextReversed);
+  font-size: var(--fontSizeS);
+  font-family: var(--fontFamily);
+  font-weight: var(--fontWeightMedium);
+  padding: 10px;
+  border-radius: 4px;
+}

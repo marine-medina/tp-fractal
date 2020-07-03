@@ -1,0 +1,16 @@
+.m-phone {
+  position: relative;
+  overflow: hidden;
+
+  .a-phoneMockup {
+    position: relative;
+    z-index: 1;
+  }
+
+  .a-phoneScreenshot {
+    top: 3%;
+    left: 8%;
+    width: 84%;
+    position: absolute;
+  }
+}

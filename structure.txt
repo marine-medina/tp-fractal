@@ -1,0 +1,20 @@
+l-home
+  o-header
+    m-notion
+      a-notionLogo
+      a-notionTitle
+    a-menu
+  ...
+  o-try
+    m-heading
+      a-title--level2
+      a-text
+    m-phone
+      a-phoneMockup
+      a-phoneScreenshot
+    a-downloadButton
+  ...
+  o-footer
+    m-notion
+      a-notionLogo
+      a-notionTitle
