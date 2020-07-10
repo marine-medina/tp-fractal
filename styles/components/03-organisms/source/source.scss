@@ -1,0 +1,21 @@
+.o-source {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .a-imageHero {
+        max-width: 320px;
+    }
+}
+
+
+.o-source__app {
+    text-align: center;
+    padding: 20px;
+
+    .a-text {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}

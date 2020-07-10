@@ -1,0 +1,13 @@
+.a-list {
+    list-style-type: none;
+    font-size: var(--fontSizeM);
+    color: var(--colorTextMain);
+    font-family: var(--fontFamily);
+    line-height: var(--lineHeightMain);
+}
+
+.a-list__text--footer {
+    color: var(--colorTextTitleNotion);
+    font-size: var(--fontSizeS);
+    padding: 0 8px;
+}

@@ -1,0 +1,16 @@
+.o-header {
+    height: 54px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: var(--colorBackground);
+    
+    .o-header__menu {
+        position: absolute;
+        right: 60px;
+    }
+}

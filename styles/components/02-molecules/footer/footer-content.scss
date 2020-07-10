@@ -1,0 +1,14 @@
+.m-footercontent {
+    padding-bottom: 24px;
+
+    .m-footercontent__title{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .m-footercontent__list {
+        padding: 0 8px;
+    }
+}

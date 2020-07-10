@@ -1,3 +1,8 @@
 .l-home {
   padding: 0 15px;
+  position: relative;
+
+  .l-home__container {
+    padding-top: 50px;
+  }
 }

@@ -5,6 +5,52 @@ l-home
       a-notionTitle
     a-menu
   ...
+  o-source
+    a-imageHero
+    m-heading
+      a-title--level1
+      a-text
+    a-downloadButton
+
+  o-empower
+    m-heading
+      a-title--level2
+      a-text
+
+    m-product
+      a-image
+      a-title--level3
+      a-list
+    m-engineering
+      a-image
+      a-title--level3
+      a-list
+    m-HR
+      a-image
+      a-title--level3
+      a-list
+    m-design
+      a-image
+      a-title--level3
+      a-list
+    m-sales
+      a-image
+      a-title--level3
+      a-list
+    m-marketing
+      a-image
+      a-title--level3
+      a-list
+
+  o-connect
+    m-heading
+      a-title--level2
+      a-text
+    a-downloadButton
+
+...
+  o-clarity
+    m
   o-try
     m-heading
       a-title--level2
@@ -14,7 +60,17 @@ l-home
       a-phoneScreenshot
     a-downloadButton
   ...
+
+
   o-footer
+    m-link
+      a-list (x7)
+    m-product 
+      a-list (x10)
+    m-company
+      a-list (x5)
+    m-help__and__contact
+      a-list (x7)
     m-notion
       a-notionLogo
       a-notionTitle
